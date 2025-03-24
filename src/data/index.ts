@@ -1,0 +1,263 @@
+import { IBrand } from "@/interfaces";
+
+export const brands: IBrand[] = [
+  {
+    id: "lamborghini",
+    name: "Lamborghini",
+    logoUrl: "https://pngimg.com/d/lamborghini_PNG10709.png",
+    originCountry: "Italy",
+    foundedYear: 1963,
+    description:
+      "Lamborghini is an Italian luxury sports car manufacturer known for its bold designs and high-performance vehicles.",
+    websiteUrl: "https://www.lamborghini.com",
+    models: [
+      {
+        id: "aventador-2023",
+        brand: {
+          id: "lamborghini",
+          name: "Lamborghini",
+          logoUrl: "",
+          originCountry: "",
+          foundedYear: 0,
+          description: "",
+          websiteUrl: "",
+          models: [],
+        },
+        modelName: "Aventador LP 780-4 Ultimae",
+        year: 2023,
+        engineType: "petrol",
+        transmission: "automatic",
+        bodyStyle: "coupe",
+        price: 500000,
+        horsepower: 769,
+        topSpeed: 355,
+        description:
+          "The final edition of Lamborghini's legendary V12 Aventador series.",
+        imageUrl:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBRayxPu7zLzvq25hqyYGMGvTZlswQ0LaQgA&s",
+        isAvailable: true,
+      },
+      {
+        id: "urus-2023",
+        brand: {
+          id: "lamborghini",
+          name: "Lamborghini",
+          logoUrl: "",
+          originCountry: "",
+          foundedYear: 0,
+          description: "",
+          websiteUrl: "",
+          models: [],
+        },
+        modelName: "Urus Performante",
+        year: 2023,
+        engineType: "petrol",
+        transmission: "automatic",
+        bodyStyle: "suv",
+        price: 260000,
+        horsepower: 666,
+        topSpeed: 306,
+        description:
+          "The most powerful Lamborghini SUV with enhanced performance and aerodynamics.",
+        imageUrl:
+          "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/performante/2022/ar/AR.jpg",
+        isAvailable: true,
+      },
+    ],
+  },
+  {
+    id: "ferrari",
+    name: "Ferrari",
+    logoUrl:
+      "https://static.vecteezy.com/system/resources/thumbnails/020/500/623/small_2x/ferrari-brand-logo-car-symbol-design-italian-automobile-illustration-free-vector.jpg",
+    originCountry: "Italy",
+    foundedYear: 1947,
+    description:
+      "Ferrari is the world's most iconic luxury sports car brand, synonymous with racing heritage and Italian excellence.",
+    websiteUrl: "https://www.ferrari.com",
+    models: [
+      {
+        id: "sf90-2023",
+        brand: {
+          id: "ferrari",
+          name: "Ferrari",
+          logoUrl: "",
+          originCountry: "",
+          foundedYear: 0,
+          description: "",
+          websiteUrl: "",
+          models: [],
+        },
+        modelName: "SF90 Stradale",
+        year: 2023,
+        engineType: "hybrid",
+        transmission: "automatic",
+        bodyStyle: "coupe",
+        price: 625000,
+        horsepower: 986,
+        topSpeed: 340,
+        description:
+          "Ferrari's plug-in hybrid supercar with Formula 1 technology.",
+        imageUrl:
+          "https://f1rst-motors.s3.me-central-1.amazonaws.com/cars/1714734578935-ferrari_sf90_4007579941.jpeg",
+        isAvailable: true,
+      },
+      {
+        id: "purosangue-2023",
+        brand: {
+          id: "ferrari",
+          name: "Ferrari",
+          logoUrl: "",
+          originCountry: "",
+          foundedYear: 0,
+          description: "",
+          websiteUrl: "",
+          models: [],
+        },
+        modelName: "Purosangue",
+        year: 2023,
+        engineType: "petrol",
+        transmission: "automatic",
+        bodyStyle: "suv",
+        price: 400000,
+        horsepower: 715,
+        topSpeed: 310,
+        description:
+          "Ferrari's first-ever four-door, four-seater vehicle with sports car performance.",
+        imageUrl:
+          "https://hips.hearstapps.com/hmg-prod/images/2025-ferrari-purosangue-101-67116b9b2e5e5.jpg?crop=0.671xw:0.504xh;0.183xw,0.374xh&resize=2048:*",
+        isAvailable: true,
+      },
+    ],
+  },
+  {
+    id: "koenigsegg",
+    name: "Koenigsegg",
+    logoUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Koenigsegg-logo-1994-2048x2048.png/1200px-Koenigsegg-logo-1994-2048x2048.png",
+    originCountry: "Sweden",
+    foundedYear: 1994,
+    description:
+      "Koenigsegg produces some of the world's fastest, most technologically advanced hypercars in limited quantities.",
+    websiteUrl: "https://www.koenigsegg.com",
+    models: [
+      {
+        id: "jesko-2023",
+        brand: {
+          id: "koenigsegg",
+          name: "Koenigsegg",
+          logoUrl: "",
+          originCountry: "",
+          foundedYear: 0,
+          description: "",
+          websiteUrl: "",
+          models: [],
+        },
+        modelName: "Jesko Absolut",
+        year: 2023,
+        engineType: "petrol",
+        transmission: "automatic",
+        bodyStyle: "coupe",
+        price: 3000000,
+        horsepower: 1600,
+        topSpeed: 330,
+        description:
+          "The ultimate speed-focused hypercar designed to break world records.",
+        imageUrl:
+          "https://blog.way.com/wp-content/uploads/2024/04/AdobeStock_437754622_Editorial_Use_Only_40-1-scaled.jpeg",
+        isAvailable: true,
+      },
+      {
+        id: "gemera-2023",
+        brand: {
+          id: "koenigsegg",
+          name: "Koenigsegg",
+          logoUrl: "",
+          originCountry: "",
+          foundedYear: 0,
+          description: "",
+          websiteUrl: "",
+          models: [],
+        },
+        modelName: "Gemera",
+        year: 2023,
+        engineType: "hybrid",
+        transmission: "automatic",
+        bodyStyle: "coupe",
+        price: 1700000,
+        horsepower: 1700,
+        topSpeed: 400,
+        description:
+          "The world's first Mega-GT and Koenigsegg's first four-seater.",
+        imageUrl:
+          "https://i.gaw.to/content/photos/57/99/579923-une-premiere-koenigsegg-gemera-arrive-et-deploie-pres-de-2300-chevaux.jpg?1024x640",
+        isAvailable: true,
+      },
+    ],
+  },
+  {
+    id: "bugatti",
+    name: "Bugatti",
+    logoUrl:
+      "https://www.supercars.net/blog/wp-content/uploads/2019/12/Bugatti-Logo.png",
+    originCountry: "France",
+    foundedYear: 1909,
+    description:
+      "Bugatti creates the world's most exclusive, luxurious, and fastest hyper sports cars.",
+    websiteUrl: "https://www.bugatti.com",
+    models: [
+      {
+        id: "chiron-2023",
+        brand: {
+          id: "bugatti",
+          name: "Bugatti",
+          logoUrl: "",
+          originCountry: "",
+          foundedYear: 0,
+          description: "",
+          websiteUrl: "",
+          models: [],
+        },
+        modelName: "Chiron Super Sport",
+        year: 2023,
+        engineType: "petrol",
+        transmission: "automatic",
+        bodyStyle: "coupe",
+        price: 3800000,
+        horsepower: 1578,
+        topSpeed: 440,
+        description:
+          "The ultimate evolution of the Chiron with enhanced aerodynamics and performance.",
+        imageUrl:
+          "https://www.motortrend.com/uploads/2023/06/021-bugatti-chiron-super-sport-250-mph-attempt.jpg?w=768&width=768&q=75&format=webp",
+        isAvailable: true,
+      },
+      {
+        id: "divo-2023",
+        brand: {
+          id: "bugatti",
+          name: "Bugatti",
+          logoUrl: "",
+          originCountry: "",
+          foundedYear: 0,
+          description: "",
+          websiteUrl: "",
+          models: [],
+        },
+        modelName: "Divo",
+        year: 2023,
+        engineType: "petrol",
+        transmission: "automatic",
+        bodyStyle: "coupe",
+        price: 5800000,
+        horsepower: 1500,
+        topSpeed: 380,
+        description:
+          "A limited-edition hyper sports car optimized for cornering and agility.",
+        imageUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/1/16/Bugatti_Divo%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0029%29.jpg",
+        isAvailable: true,
+      },
+    ],
+  },
+];
