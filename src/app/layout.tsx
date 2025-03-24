@@ -1,3 +1,5 @@
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
@@ -18,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="abyss">
       <body className={space_Grotesk.className}>
+        <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
